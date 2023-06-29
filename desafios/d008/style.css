@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+h1{
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+}
+
+li{
+    font-weight: bold;
+}

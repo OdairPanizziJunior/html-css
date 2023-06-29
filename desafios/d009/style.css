@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(16, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

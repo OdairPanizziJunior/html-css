@@ -1,0 +1,50 @@
+/*Lembrar sempre do @CHARSET*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+:root{ /*variáveis*/
+    --cor0: blue;
+    --cor1: white;
+    --cor2: black;
+    --cor3: yellow;
+    --fonte-padrao: 'Space Grotesk', sans-serif; 
+  /*  --fonte-destaque: 'Loved by the King', cursive;*/
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor0);
+    color: var(--cor1);
+    padding: 20px;
+    text-align: center;
+}
+
+.personagens{
+    display: flex;
+    justify-content: center;
+
+}
+
+.personagem{
+    height: 112px;
+    width: 112px;
+    background-color: var(--cor1);
+    border-radius: 100px;
+    border: 1px solid var(--cor2);
+    overflow: hidden;
+}
+
+.personagem img{
+    max-width: 100%;
+}
